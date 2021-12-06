@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NovaDBSetup", "NovaDBSetup\NovaDBSetup.pyproj", "{6379911A-155A-4E2E-BD9D-6CB7EFE844DA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Add_DSN", "Add_DSN\Add_DSN.pyproj", "{E3A77E48-4079-4DC1-923B-A2EB029A21E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6379911A-155A-4E2E-BD9D-6CB7EFE844DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6379911A-155A-4E2E-BD9D-6CB7EFE844DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A77E48-4079-4DC1-923B-A2EB029A21E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A77E48-4079-4DC1-923B-A2EB029A21E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239567AF-F785-48BD-90D5-974B4F447476}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,105 @@
+Felmeddelande:
+-------------------------------------
+** Visar debug information manuellt **
+-------------------------------------
+
+Kommentar:
+-------------------------------------
+
+-------------------------------------
+
+Debuginformation:
+-------------------------------------
+-------------------------------------
+
+Databasinformation COMMON:SAT_NOVA_V17
+-------------------------------------
+16 connections allocated (Tot=16, Max=16)
+Connection 0x02867710 allocated by thread 8788 (Generic=TRUE, InTrans=FALSE, Stmts=0)
+Connection 0x02868128 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b9640
+    SELECT * FROM niTrsDat(NOLOCK) WHERE ObjTyp = 1 AND ObjNr = 7686 Order By BokfDat desc, niTrsDat.Tra
+Connection 0x075b1858 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b2698
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b1dc0 allocated by thread 8248 (Generic=TRUE, InTrans=FALSE, Stmts=0)
+Connection 0x075b2a08 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075bbd18
+    SELECT KstNr,KliNr,AvdNr,AktNr,GldNr,Kostnad,MomsGrund,Moms,RegDat,Handl,AvtalsNamn,KstNamn,GldKst,K
+Connection 0x075b3558 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b56c0
+    SELECT niHist.HistNr,niHist.ObjTyp,niHist.ObjNr,niHist.SubNr,niHist.RefNr,niHist.Tid,niHist.Typ,niHi
+Connection 0x075b3c10 allocated by thread 4884 (Generic=FALSE, InTrans=FALSE, Stmts=0)
+Connection 0x075b38a0 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=0)
+Connection 0x075b4178 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b92b8
+    { CALL xt_niAkt_select1(?) }
+Connection 0x075b6f90 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075bcb38
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b72d8 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b8f30
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b82e8 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b5a48
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b8630 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b6158
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b2d50 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075b99c8
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075b8978 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=1)
+  Statement 0x075ba7e8
+    { CALL xt_niUtility_select1(?) }
+Connection 0x075be720 allocated by thread 8788 (Generic=FALSE, InTrans=FALSE, Stmts=0)
+31 result sets allocated
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075b2698, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niAtgTdo (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table ? (SelStmt=0x075b56c0, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075b5a48, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075b6158, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075bcb38, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075b8f30, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075b99c8, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niAkt (SelStmt=0x075b92b8, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niAktGld (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niGdMain (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niGdPriv (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niSkMain (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niSkMain (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niSkFakt (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niSkFakt (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niDtInf (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niDtInf (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niKost (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niKost (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niKost (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niPartnr (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niUtility (SelStmt=0x075ba7e8, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niDokVarde (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niKlient (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niForeignCurrencyDebt (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niKliKst (SelStmt=0x075bbd18, AddStmt=0xffffffff)
+Type SELECT allocated by thread 4884 on table niSkFakt (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 4884 on table niSkFakt (SelStmt=0xffffffff, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table ? (SelStmt=0x075b9640, AddStmt=0xffffffff)
+Type SELECT allocated by thread 8788 on table niTrsSpc (SelStmt=0xffffffff, AddStmt=0xffffffff)
+-------------------------------------
+
+Memory Info:
+-------------------------------------
+MemoryLoad 54%
+AvailPhysMem 3.66 GB
+TotalPageFile 9.25 GB
+AvailPageFile 4.67 GB
+AvailHarddisk C: 71.41 GB,D: 40.70 GB,E: 49.73 GB
+-------------------------------------
+
+Traceinformation:
+-------------------------------------
+13:48:04  8788  JDDLG dialogs for language Swedish loaded from \\intad1.com\data\Nova_TST_SE\SAT_NOVA\NovaApp\BIN\JDDLG.swe
+13:48:04  8788  JDDLG texts for language Swedish loaded from \\intad1.com\data\Nova_TST_SE\SAT_NOVA\NovaApp\BIN\JDDLG.LNG
+13:48:04  8788  XML Parser initialize - OK
+-------------------------------------
+
