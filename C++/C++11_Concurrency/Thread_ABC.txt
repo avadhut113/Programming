@@ -1,0 +1,62 @@
+#include<iostream>
+#include<thread>
+#include<mutex>
+#include<condition_variable>
+using namespace std;
+
+#define MAX 10
+
+condition_variable cv1, cv2, cv3; 
+mutex m1;
+int i;
+void function1()
+{
+    while (i < MAX) {
+        unique_lock<mutex> lock(m1);
+        cv1.wait(lock);
+        cout << i << endl;
+        i++;
+        lock.unlock();
+        cv2.notify_one();
+    }
+
+}
+void function2()
+{
+    while (i < MAX) {
+        unique_lock<mutex> lock(m1);
+        cv2.wait(lock);
+        cout << i << endl;
+        i++;
+        lock.unlock();
+        cv3.notify_one();
+    }
+}
+
+void function3()
+{   
+    while (i < MAX) {
+        unique_lock<mutex> lock(m1);        
+        cv3.wait(lock);
+        cout << i << endl;
+        i++;
+        lock.unlock();
+        cv1.notify_one();
+    }
+}
+
+int main()
+{
+    thread t3(function3);
+    thread t1(function1);
+    thread t2(function2);
+
+    cv1.notify_one();
+
+    t1.join();
+    t2.join();
+    t3.join();
+
+    getchar();
+    return 0;
+}
