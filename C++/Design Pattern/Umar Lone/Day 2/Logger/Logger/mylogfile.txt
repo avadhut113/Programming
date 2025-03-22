@@ -1,0 +1,6 @@
+[0][]Application has started
+[0][]Allocating buffers
+[0][]Connecting to network resource
+[0][]Application is terminating
+[0][]Thread1 started
+[0][]Thread2 started

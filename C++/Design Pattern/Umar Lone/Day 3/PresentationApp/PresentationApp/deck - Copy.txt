@@ -1,0 +1,18 @@
+INTRODUCTION
+C++ is a multi-paradigm programming language
+Not only OOP language
+BASICS
+A C++ program is written in a .cpp file
+It must be a text file
+CONSOLE OUTPUT
+Use std::cout to write on the terminal
+std::cout is an object
+CONSOLE INPUT
+Use std::cin to read from the keyboard
+It is also an object
+COMPILERS
+MSVC, gcc, clang are C++ commonly used compilers
+There are others from Intel, Borland, etc
+Copy Semantics
+Allows objects to be copied
+Alternatively, you can use move semantics

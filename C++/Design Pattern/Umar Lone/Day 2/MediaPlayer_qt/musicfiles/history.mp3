@@ -1,0 +1,30 @@
+#include "Player.h"
+
+#include <iostream>
+#include <fstream>
+#include <thread>
+#include "Decoder.h"
+#include "Mp3Decoder.h"
+
+void Player::Open(std::filesystem::path file) {
+	if(!exists(file)) {
+		std::cout << "File does not exist\n" ;
+	}
+	m_File = std::move(file) ;
+}
+
+void Player::Play() {
+	using namespace std ;
+	std::ifstream file{m_File} ;
+	if(!file) {
+		throw std::runtime_error("Cannot open file") ;
+	}
+	char ch ;
+	//m_pDecoder = new Mp3Decoder{} ;
+	m_pDecoder = Create() ;
+	while(file.get(ch)) {
+		std::cout << m_pDecoder->Decode(ch);
+		std::this_thread::sleep_for(50ms) ;
+	}
+}
+

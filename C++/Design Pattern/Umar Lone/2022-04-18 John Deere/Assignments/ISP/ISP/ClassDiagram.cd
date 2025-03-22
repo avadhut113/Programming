@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IFile" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAoAQACAAAAAAgAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>IFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextFile" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAoAAACAAAAAAgAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>TextFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreamFile" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAoAAACAAAAAAgAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>StreamFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

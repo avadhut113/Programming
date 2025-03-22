@@ -1,0 +1,6 @@
+INTRODUCTION
+C++ is a multi-paradigm programming language
+Not only OOP language
+BASICS
+A C++ program is written in a .cpp file
+It must be a text file
